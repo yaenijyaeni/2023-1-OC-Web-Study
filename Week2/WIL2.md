@@ -26,7 +26,7 @@
 ***
 
 #### 🤸🏻‍♂️: "git" 쓰면 뭐가 좋은데 ❔
-코드에 수많은 분기(멀티버스)(branch) 생성 가능 -> 버전관리자
+코드에 수많은 분기(멀티버스)(branch) 생성 가능 -> 버전 관리자
 
 분기 나누기, 합치기/ 변화 추적(버전 관리)/ 특정 시점으로 되돌리기 가능
 
@@ -44,23 +44,20 @@
 #### 🦁: "git"의 내부를 뜯어볼래 ❕
 <in my computer> - add와 commit
 - working directory; 코드 입력 등 내가 볼 수 있는 작업 공간
-- staging area; 특정 명령어 입력되어 쌓아두는 공간
-- local repository; git에서 관리; commit될 때 ; 저장 공간
+- staging area; 특정 명령어 입력되어 쌓아두는 공간; git add(변화들 중 다음 커밋에 포함시킬 변화들을 모아두기) 명령어를 통해
+- local repository; git에서 관리하는 저장 공간; git commit(폴더에 변경 내용 기록) 명령어를 통해
 
 ▶ 3가지 영역을 통해서 코드를 관리할 수 있음
 
 ***
   
 #### 👨‍👩‍👧‍👦: 협업할 때 GIT, 왜 쓰는데 ❔
-- 정보 공유 방식; remote repository를 통해
-- add와 commit에 "push"가 추가됨
-- 기능; fetch(가져오기) ➡ pull(완료), clone(복제(가져오기))
-- bitbucket, gitlab을 필요에 따라 추가적으로 사용 가능
-- commit을 통해 local repository에 기록 관리
+- 정보 공유 방식; remote repository를 통해; 즉, 외부 저장소; git의 변화 데이터를 모아두는 
+- add와 commit에 "push(commit을 통해 remote repository 변화 기록)"가 추가됨
+- 기능; fetch(remote repository의 변화 여부 확인) ➡ pull(remote repository의 변화 확인 ➕ 최신 데이터 복사 후 로컬 Git에 가져오기), clone(복제(가져오기))
+- github, bitbucket, gitlab을 필요에 따라 remote repository로 사용 가능
 
 ***
 
 #### 💥: 직접 해보자 ❕
 깃허브와 내 프로젝트 연결하기
-
-remote repository
